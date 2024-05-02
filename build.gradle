@@ -30,7 +30,7 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     runtimeOnly 'org.postgresql:postgresql'
-
+    implementation 'org.bouncycastle:bcprov-jdk15on:1.68'
 }
 
 tasks.named('test') {
